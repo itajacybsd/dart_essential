@@ -1,5 +1,10 @@
 void main(List<String> args) {
   
+  recuperarIdade();
+
+ var funcaoRecuperarIdade = recuperarNada; // atribuindo funcao
+
+ funcaoRecuperarIdade();  // executando a funcao
 
 
 }
@@ -13,4 +18,6 @@ int recuperarIdade() {
 recuperarNome() {}
 
 // funcao sem retorno (void)
-void recuperarNada(){}
+void recuperarNada(){
+  print("idade 42");
+}
