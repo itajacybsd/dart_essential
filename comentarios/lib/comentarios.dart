@@ -12,3 +12,14 @@ comentario de multiplas linhas
 void main(List<String> args) {
   
 }
+
+
+// TODO: Implementar funcionalidade futura aqui!!!
+
+void exemploComentario() {
+
+
+// FIXME: Corrigir este bug em potencial
+
+// HACK: Solução temporária para um problema específico
+}
