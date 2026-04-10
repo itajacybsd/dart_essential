@@ -10,8 +10,8 @@
 
 /// Essa função calcula a soma de numeros inteiros
 /// 
-/// [a] é o primeiro numero inteiro
-/// [b] é o segundo numero inteiro
+/// - [a] é o primeiro numero inteiro
+/// - [b] é o segundo numero inteiro
 /// 
 /// Exemplo de utilização:
 /// ```dart
