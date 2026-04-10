@@ -61,4 +61,31 @@ void main() {
 
   // Runes, Symbol, Dynamic
 
+// Runes: é a representaçãoa dos caracteres unicode
+
+String emoji = '🎯';
+emoji.runes;
+
+print(emoji.runes);
+
+Runes letraA = Runes('\u0041');
+
+// Symbols:  Representam identificadores únicos no código
+
+Symbol  simbolo = #minhaVariavel;
+
+// Null
+// representa a ausência de valor
+
+String? nomeNulo;
+
+nomeNulo = 'X';
+
+// Dynamic
+
+dynamic nomeQueViraIdade = 'Rodrigo';
+
+nomeQueViraIdade = 42;
+
+
 }
