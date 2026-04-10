@@ -83,9 +83,16 @@ nomeNulo = 'X';
 
 // Dynamic
 
+//  pode mudar durante a execução
+
 dynamic nomeQueViraIdade = 'Rodrigo';
 
 nomeQueViraIdade = 42;
+
+nomeQueViraIdade + "teste";
+// Dynamic desabilita a verificação de tipos em tempo de compilação
+// pode introduzir erros dificieis de rastrear em tempo de execução
+
 
 
 }
