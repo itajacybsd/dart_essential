@@ -33,6 +33,7 @@ void main(List<String> args) {
 
   var misto = [1, 'Dart', 2, 'Flutter'];
   var apenasStrings = misto.whereType<String>(); // (Dart, Flutter)
+  print(apenasStrings);
 
   // firstWhere(): Retorna o primeiro elemento que satisfaz a condição.
   var item = numeros.firstWhere((n) => n < 3, orElse: () => -1); // 1
